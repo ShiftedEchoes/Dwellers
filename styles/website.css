@@ -1,0 +1,199 @@
+/* ---- HEADER ---- */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  max-width: 1920px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.headerLeft {
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.headerMiddle {
+  /*background-color: rgb(75, 75, 75);*/
+  flex: 1;
+  margin-left: 88px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.m {
+  padding: 10px;
+  font-size: 20px;
+  font-family: Roboto;
+  width: 20px;
+  text-decoration: none;
+  color: black;
+
+}
+
+.headerRight {
+  /*background-color: rgb(175, 175, 175);*/
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-twitter {
+  color: rgb(0, 0, 0);
+}
+
+.fa-instagram {
+  color: rgb(0, 0, 0);
+}
+
+.fa-reddit {
+  color: rgb(0, 0, 0);
+}
+
+.logo {
+  height: 40px;
+  margin-top: 0px;
+  transition: opacity 1s;
+  max-width: 1920px;
+}
+
+.logo:hover {
+  opacity: 0.5;
+}
+
+/* ---- BODY ----*/
+
+.landing-image {
+  display: block;
+  width: 90%;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 15px;
+}
+
+.homeVideo {
+  display: block;
+  width: 90%;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 15px;
+}
+
+.shell {
+display: grid;
+grid-gap: 10px;
+grid-template-columns: 1fr 1fr 1fr;
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+max-width: 1920px;
+}
+
+.imgGallery {
+  width: 100%;
+  transition: all 1s;
+}
+
+.imgGallery:hover {
+  opacity: .6;
+}
+
+/*.dColOne {
+  flex: 1;
+  height: 200px;
+  background-color: rgb(175, 175, 175);
+  width: 90%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.cOne {
+  height: 100%;
+  width: 100%;
+}
+
+.dColTwo {
+  flex: 1;
+  height: 200px;
+  background-color: rgb(75, 75, 75);
+  width: 90%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.dColThree {
+  flex: 1;
+  height: 200px;
+  background-color: rgb(175, 175, 175);
+  width: 90%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.dColFour {
+  flex: 1;
+  height: 200px;
+  background-color: rgb(75, 75, 75);
+  width: 90%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.dColFive {
+  flex: 1;
+  height: 200px;
+  background-color: rgb(175, 175, 175);
+  width: 90%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.dColSix {
+  flex: 1;
+  height: 200px;
+  background-color: rgb(75, 75, 75);
+  width: 90%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto; 
+}*/
+
+.main-button {
+  font-family: Roboto;
+  background-color: rgb(25, 98, 255);
+  color: white;
+  border: none;
+  padding: 6px 10px 6px 10px;
+}
+
+.main-button:hover {
+  background-color: 0.8;
+}
+
+
+.text-logo {
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+.search-bar {
+
+}
